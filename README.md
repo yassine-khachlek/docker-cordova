@@ -13,7 +13,7 @@ RUN mkdir -p /var/cordova
 
 WORKDIR /var/cordova
 
-VOLUME ["/var/cordova"]
+VOLUME ["/var/cordova", "/dev/bus/usb"]
 ```
 
 Some shell scripts are provided to create, add android platform, and build the application.
